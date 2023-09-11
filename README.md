@@ -8,7 +8,7 @@ This project is a web application that displays Flavanoids statistics and Gamma 
 2. Use `yarn start` or `npm start` to start the project in your loal environment.
 
 ## Screenshot of output
-![Screenshot of ouput.](./public/manufac_task.jpg)
+![Screenshot of ouput.](./public/manufac_task2.jpg)
 
 
 ## React + TypeScript + Vite

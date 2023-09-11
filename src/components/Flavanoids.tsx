@@ -25,13 +25,13 @@ function Flavanoids({ data }: Props) {
   // Calculate Flavanoids values for each class
   const class1Flavanoids = data
     .filter((item) => item.Alcohol === 1)
-    .map((item) => item.Flavanoids);
+    .map((item) => Number(item.Flavanoids));
   const class2Flavanoids = data
     .filter((item) => item.Alcohol === 2)
-    .map((item) => item.Flavanoids);
+    .map((item) => Number(item.Flavanoids));
     const class3Flavanoids = data
-    .filter((item) => item.Alcohol === 2)
-    .map((item) => item.Flavanoids);
+    .filter((item) => item.Alcohol === 3)
+    .map((item) => Number(item.Flavanoids));
 
   // find mean, median, and mode for flavanoids of each class
   const class1FlavanoidMean = findMean(class1Flavanoids).toFixed(3);
